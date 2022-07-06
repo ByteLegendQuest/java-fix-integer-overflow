@@ -2,8 +2,8 @@ package com.bytelegend;
 
 public class IntegerOverflow {
     public static void main(String[] args) {
-        int oneBillion = 1_000_000_000;
-        int i = 0;
+        long oneBillion = 1_000_000_000L;
+        long i = 0;
 
         i = i + oneBillion;
         System.out.println("i=" + i);
