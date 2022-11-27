@@ -1,16 +1,15 @@
 package com.bytelegend;
-import java.math.BigInteger;
 
 public class IntegerOverflow {
     public static void main(String[] args) {
-        BigInteger oneBillion = new BigInteger("1000000000");
-        BigInteger i = BigInteger.ZERO;
+        int oneBillion = 1_000_000_000;
+        int i = 0;
 
-        i = i.add(oneBillion);
+        i = i + oneBillion;
         System.out.println("i=" + i);
-        i = i.add(oneBillion);
+        i = i + oneBillion;
         System.out.println("i=" + i);
-        i = i.add(oneBillion);
+        i = i + oneBillion;
         System.out.println("i=" + i);
     }
 }
