@@ -11,6 +11,6 @@ public class IntegerOverflow {
         System.out.println("i=" + i);
         Long aLong = new Long((long) i);
         Long aLong1 = new Long((long) oneBillion);
-        System.out.println("i=" + aLong + aLong1);
+        System.out.println("i=" + (aLong + aLong1));
     }
 }
