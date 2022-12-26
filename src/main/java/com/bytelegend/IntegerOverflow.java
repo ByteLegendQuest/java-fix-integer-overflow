@@ -1,6 +1,6 @@
 package com.bytelegend;
 
-public class MaxValues {
+public class IntegerOverflow {
     public static void main(String[] args) {
         long oneBillion = 1000000000L;
         long i = 0L;
