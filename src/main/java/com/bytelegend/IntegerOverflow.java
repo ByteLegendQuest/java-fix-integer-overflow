@@ -1,9 +1,9 @@
 package com.bytelegend;
 
-public class IntegerOverflow {
+public class MaxValues {
     public static void main(String[] args) {
-        int oneBillion = 1_000_000_000;
-        int i = 0;
+        long oneBillion = 1000000000L;
+        long i = 0L;
 
         i = i + oneBillion;
         System.out.println("i=" + i);
