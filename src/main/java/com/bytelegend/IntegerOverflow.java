@@ -3,7 +3,7 @@ package com.bytelegend;
 public class IntegerOverflow {
     public static void main(String[] args) {
         int oneBillion = 1_000_000_000;
-        double i = 0;
+        long i = 0L;
 
         i = i + oneBillion;
         System.out.println("i=" + i);
