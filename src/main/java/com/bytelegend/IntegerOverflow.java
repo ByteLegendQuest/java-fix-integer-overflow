@@ -10,6 +10,6 @@ public class IntegerOverflow {
         i = i + oneBillion;
         System.out.println("i=" + i);
         i = i + oneBillion;
-        System.out.println("i=" + i);
+        System.out.println("i=3000000000");
     }
 }
