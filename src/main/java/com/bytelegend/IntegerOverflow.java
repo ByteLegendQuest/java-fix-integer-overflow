@@ -3,13 +3,13 @@ package com.bytelegend;
 public class IntegerOverflow {
     public static void main(String[] args) {
         int oneBillion = 1_000_000_000;
-        long i = 0;
+        int i = 0;
 
-        i += oneBillion;
+        i = i + oneBillion;
         System.out.println("i=" + i);
-        i += oneBillion;
+        i = i + oneBillion;
         System.out.println("i=" + i);
-        i += oneBillion;
+        i = i + oneBillion;
         System.out.println("i=" + i);
     }
 }
