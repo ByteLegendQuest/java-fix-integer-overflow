@@ -9,7 +9,6 @@ public class IntegerOverflow {
         System.out.println("i=" + i);
         i = i + oneBillion;
         System.out.println("i=" + i);
-        i = i + oneBillion;
-        System.out.println("i=" + i);
+        System.out.println("i=" + (i + oneBillion));
     }
 }
